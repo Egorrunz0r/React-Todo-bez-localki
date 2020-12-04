@@ -1,0 +1,95 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: rgb(0, 196, 245);
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+.todo__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.todo__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: beige;
+}
+
+.todo__input {
+  margin-right: 1rem;
+}
+
+.todo__btn {
+  font-size: 16px;
+  border: 1px solid rgb(13, 220, 235);
+  color: black;
+  outline: none;
+}
+
+.todo__text {
+  color: rgb(19, 2, 4);
+  opacity: 1;
+}
+
+.todo__text.done {
+  opacity: 0.3;
+}
+
+.todo__index {
+  margin-right: 0.5rem;
+  font-size: 14px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo__form {
+  margin-bottom: 5rem;
+}
+
+.todo__form input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  background-color: #fff;
+  width: 50%;
+}
+
+.form__btn {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+.form__btn:hover {
+  background-color: blue;
+}
+
+input[type="checkbox"] {
+  border: none;
+  outline: none;
+}
